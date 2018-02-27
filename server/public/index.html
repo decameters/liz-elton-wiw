@@ -7,12 +7,17 @@
     <title>Liz Elton / WIW</title>
     <!-- scripts -->
     <script type="text/javascript" src="vendors/angular.min.js"></script>
+    <script type="text/javascript" src="vendors/angular-route.js"></script>
     <script type="text/javascript" src="scripts/client.js"></script>
     <!-- styling -->
-    <link rel="stylesheet" href="vendors/angular-material.css">
+    <link href="vendors/angular-material.css" rel="stylesheet" type="text/css">
+    <script src="vendors/angular-animate.js" charset="utf-8"></script>
+    <script src="vendors/angular-aria.js" charset="utf-8"></script>
+    <script src="vendors/angular-messages.js" charset="utf-8"></script>
+    <script src="vendors/angular-material.js" charset="utf-8"></script>
     <link rel="stylesheet" href="css/styles.css">
 </head>
-<body>
-    
+<body ng-app="WIWapp">
+    <ng-view></ng-view>
 </body>
 </html>
