@@ -4,11 +4,12 @@ app.config(function($routeProvider){
         $routeProvider.when('/', {
             templateUrl: '/views/login.html',
             controller: 'WIWController as vm'
-        }).when('/about', {
-            templateUrl: '/views/about.html',
-            controller: 'AboutController as vm'
-        }).when('/home', {
-            redirectTo: '/'
+        }).when('/success', {
+            templateUrl: '/views/success.html',
+            controller: 'WIWController as vm'
+        }).when('/fail', {
+            templateUrl: '/views/fail.html',
+            controller: 'WIWController as vm'
         }).otherwise({
             template: '<h1>404</h1>'
         });
@@ -16,9 +17,10 @@ app.config(function($routeProvider){
 });
 
 app.controller('WIWController', function(){
-    console.log('WIWController loaded');
-    
     var self = this;
+    
     self.message = "howdy yall";
+
+
 });
     
