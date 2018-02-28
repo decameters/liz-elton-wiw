@@ -1,65 +1,65 @@
 <div ng-include="'views/partials/header.html'"></div>
 
 <div class="container">
-<h1>{{vm.data.accounts[0].company}}</h1>
-<div layout="row" layout-align="start center">
-<md-input-container>
-        <label>First Name</label>
-        <input type="text"  value="{{vm.data.users[0].first_name}}">
-</md-input-container>
+    <h1>{{vm.data.accounts[0].company}}</h1>
+    <div layout="row" layout-align="start center">
+        <md-input-container>
+            <label>First Name</label>
+            <input type="text" value="{{vm.data.users[0].first_name}}">
+        </md-input-container>
 
-<md-input-container>
-        <label>Last Name</label>
-        <input type="text" value="{{vm.data.users[0].last_name}}">
-</md-input-container>
+        <md-input-container>
+            <label>Last Name</label>
+            <input type="text" value="{{vm.data.users[0].last_name}}">
+        </md-input-container>
 
-<md-input-container id="long">
-        <label>Email</label>
-        <input type="email" value="{{vm.data.users[0].email}}">
-</md-input-container>
-</div>
+        <md-input-container id="long">
+            <label>Email</label>
+            <input type="email" value="{{vm.data.users[0].email}}">
+        </md-input-container>
+    </div>
 
-<div class="position-dropdown">
-<form name="myForm">
-    <label>Position</label>
-    <select>
-        <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
-    </select>
-</form>
-</div>
+    <div class="position-dropdown">
+        <form name="myForm">
+            <label>Position: </label>
+            <select>
+                <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
+            </select>
+        </form>
+    </div>
 
-<md-button class="md-raised md-primary btn-spacey">UPDATE INFO</md-button>
-<md-button class="md-raised md-warn btn-spacey" ng-click="newUser.added = !newUser.added">ADD A NEW USER?</md-button>
+    <md-button class="btn-good btn-spacey">UPDATE INFO</md-button>
+    <md-button class="btn-bad btn-spacey" ng-click="newUser.added = !newUser.added">ADD A NEW USER?</md-button>
 
-<div ng-show="newUser.added">
-<div class="new-user"layout="row" layout-align="start center">
-<md-input-container>
+    <div ng-show="newUser.added">
+        <div class="new-user" layout="row" layout-align="start center">
+            <md-input-container>
                 <label>First Name</label>
                 <input type="text">
-        </md-input-container>
-        
-        <md-input-container>
+            </md-input-container>
+
+            <md-input-container>
                 <label>Last Name</label>
                 <input type="text">
-        </md-input-container>
-        
-        <md-input-container id="long">
+            </md-input-container>
+
+            <md-input-container id="long">
                 <label>Email</label>
                 <input type="email">
-        </md-input-container>
-</div>
+            </md-input-container>
+        </div>
 
-<div class="position-dropdown">
-<form name="myForm">
-    <label>Position</label>
-    <select>
-        <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
-    </select>
-</form>
-</div>
+        <div class="position-dropdown">
+            <form name="myForm">
+                <label>Position: </label>
+                <select>
+                    <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
+                </select>
+            </form>
+        </div>
 
-<md-button class="md-raised md-primary btn-spacey">ADD NEW USER</md-button>
+        <md-button class="btn-goody btn-spacey">ADD NEW USER</md-button>
 
-</div>
+    </div>
 
 </div>
