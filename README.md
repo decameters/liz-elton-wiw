@@ -1,11 +1,12 @@
 # Liz Elton / When I Work Code Challenge
 
+Live demo can be seen here.
 
 ## Built With
 
 * AngularJS
 * AngularJS Material
-* When I Work API
+* Express
 
 ## Getting Started
 
@@ -13,14 +14,14 @@
 
 <!-- See deployment for notes on how to deploy the project on a live system. -->
 
-### Prerequisites
+<!-- ### Prerequisites
 
 
-### Installing
+### Installing -->
 
 
 
-## Documentation
+<!-- ## Documentation -->
 
 
 
@@ -29,4 +30,4 @@
 * Liz Elton
 
 
-## Acknowledgments
+<!-- ## Acknowledgments -->
