@@ -1,5 +1,10 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 .container {
     margin-top: 50px;
+    margin-left: 30px;
 }
 
 .message {
@@ -9,4 +14,21 @@
     border: 5px solid red;
     text-align: center;
     margin-bottom: 20px;
+}
+
+.spacey {
+    padding-right: 20px;
+}
+
+.nav {
+    font-weight: bold;
+}
+
+#long {
+    width: 300px;
+}
+
+.btn-spacey {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }

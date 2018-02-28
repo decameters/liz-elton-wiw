@@ -1,0 +1,15 @@
+
+        <div class="container" >
+        <div layout="row" layout-align="none center">
+        <h1 class="spacey">Welcome, {{vm.data.login.first_name}}!</h1>
+        <md-button class="md-raised md-primary" href="#!">LOG OUT</md-button>
+        </div>
+        <div class="nav" layout="row">
+            <div class="spacey">Your Companies:</div>
+        <span class="spacey" ng-repeat="company in vm.data.accounts">
+            <a ng-href="#!{{company.id}}">{{company.company}}</a></li>
+        </span>
+
+
+        </div>
+        </div>
