@@ -1,6 +1,6 @@
 # Liz Elton / When I Work Code Challenge
 
-Live demo can be seen here.
+Live demo can be seen [here](https://lelton-wiw.herokuapp.com/).
 
 ## Built With
 
