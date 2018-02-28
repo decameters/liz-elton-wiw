@@ -8,7 +8,7 @@ Live demo can be seen here.
 * AngularJS Material
 * Express
 
-## Getting Started
+<!-- ## Getting Started -->
 
 <!-- These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. -->
 
