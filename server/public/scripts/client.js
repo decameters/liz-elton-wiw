@@ -11,14 +11,14 @@ app.config(function($routeProvider){
             templateUrl: '/views/fail.html',
             controller: 'WIWController as vm'
         }).otherwise({
-            template: '<h1>404</h1>'
+            template: '<h1>404</h1><p>no bueno</p>'
         });
 
 });
 
 app.controller('WIWController', function(){
     var self = this;
-    
+
     self.message = "howdy yall";
 
 
