@@ -17,7 +17,15 @@
         <label>Email</label>
         <input type="email" value="{{vm.data.users[0].email}}">
 </md-input-container>
+</div>
 
+<div class="position-dropdown">
+<form name="myForm">
+    <label>Position</label>
+    <select>
+        <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
+    </select>
+</form>
 </div>
 
 <md-button class="md-raised md-primary btn-spacey">UPDATE INFO</md-button>
@@ -40,6 +48,16 @@
                 <input type="email">
         </md-input-container>
 </div>
+
+<div class="position-dropdown">
+<form name="myForm">
+    <label>Position</label>
+    <select>
+        <option ng-repeat="role in vm.data.positions" value="{{role}}">{{role.role}}</option>
+    </select>
+</form>
+</div>
+
 <md-button class="md-raised md-primary btn-spacey">ADD NEW USER</md-button>
 
 </div>

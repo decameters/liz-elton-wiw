@@ -68,6 +68,24 @@ app.controller('WIWController', function(){
             "company": "123 Company",
             
           }
+        ],
+        "positions": [
+          {
+            "id": 0,
+            "role": null,
+          },
+          {
+            "id": 1,
+            "role": "Manager",
+          },
+          {
+            "id": 2,
+            "role": "Employee 1",
+          },
+          {
+            "id": 3,
+            "role": "Employee 2",
+          }
         ]
       }
 
